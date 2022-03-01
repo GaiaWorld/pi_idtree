@@ -2,8 +2,13 @@
 name = "pi_idtree"
 version = "0.1.0"
 authors = ["zmythleo <zmythleo@gmail.com>"]
+edition = "2021"
+description = "Implement a tree and provide methods such as insertion, deletion and iteration"
+repository = "https://github.com/GaiaWorld/pi_idtree.git"
+license = "MIT OR Apache-2.0"
+keywords = ["pi", "pi_idtree", "idtree", "tree"]
 
 [dependencies]
-pi_map = {path="../pi_map"}
-log = "*"
+pi_map = "0.1"
+log = "0.4"
 
